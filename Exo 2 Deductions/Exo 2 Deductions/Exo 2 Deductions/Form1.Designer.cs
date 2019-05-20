@@ -98,7 +98,7 @@
             // 
             // Annuelbox
             // 
-            this.Annuelbox.Location = new System.Drawing.Point(261, 62);
+            this.Annuelbox.Location = new System.Drawing.Point(261, 61);
             this.Annuelbox.Name = "Annuelbox";
             this.Annuelbox.Size = new System.Drawing.Size(100, 20);
             this.Annuelbox.TabIndex = 5;
@@ -139,6 +139,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(47, 20);
             this.textBox2.TabIndex = 9;
+            this.textBox2.Text = "0";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // textBox3
             // 
@@ -153,24 +155,26 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(118, 392);
+            this.label3.Location = new System.Drawing.Point(87, 399);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "Revenu imposable : fr.";
+            this.label3.Visible = false;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 450);
+            this.ClientSize = new System.Drawing.Size(397, 428);
+            this.Controls.Add(this.Annuelbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cmdcalcul);
             this.Controls.Add(this.Coefficientbox);
-            this.Controls.Add(this.Annuelbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.rabaisbox);
             this.Controls.Add(this.transportbox);

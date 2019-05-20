@@ -27,15 +27,31 @@ namespace Exo_2_Deductions
 
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             float brut;
             float famillial;
+            float resultat;
 
-            float total = Annuelbox / Coefficientbox;
-            label3.Text = "Revenue Imposable : " + total.ToString();
 
-          
+            if (Annuelbox.Text == "")
+            {
+                MessageBox.Show("Veuillez entrez quelque chose dans la case revenu annuel ", "Erreur");
+                return;
+            }
+
+            if (Coefficientbox.Text == "")
+            {
+                MessageBox.Show("Veuillez entrez quelque chose dans la case Coefficient famillal ", "Erreur");
+                return;
+            }
+            brut = float.Parse(Annuelbox.Text);
+            label3.Visible = true;
+            famillial = float.Parse(Coefficientbox.Text);
+
+            resultat = brut / famillial;
+            label3.Text = resultat.ToString (); 
 
         }
 
@@ -46,10 +62,17 @@ namespace Exo_2_Deductions
 
         private void Annuelbox_TextChanged(object sender, EventArgs e)
         {
+            
+
 
         }
 
         private void Coefficientbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
