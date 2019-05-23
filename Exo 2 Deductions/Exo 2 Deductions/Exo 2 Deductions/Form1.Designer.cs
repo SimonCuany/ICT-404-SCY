@@ -40,6 +40,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -62,6 +63,7 @@
             this.Jeunebox.TabIndex = 1;
             this.Jeunebox.Text = "Déduction jeune";
             this.Jeunebox.UseVisualStyleBackColor = true;
+            this.Jeunebox.CheckedChanged += new System.EventHandler(this.Jeunebox_CheckedChanged);
             // 
             // transportbox
             // 
@@ -73,6 +75,7 @@
             this.transportbox.TabIndex = 2;
             this.transportbox.Text = "Déduction transport";
             this.transportbox.UseVisualStyleBackColor = true;
+            this.transportbox.CheckedChanged += new System.EventHandler(this.transportbox_CheckedChanged);
             // 
             // rabaisbox
             // 
@@ -115,7 +118,7 @@
             // cmdcalcul
             // 
             this.cmdcalcul.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdcalcul.Location = new System.Drawing.Point(147, 320);
+            this.cmdcalcul.Location = new System.Drawing.Point(137, 331);
             this.cmdcalcul.Name = "cmdcalcul";
             this.cmdcalcul.Size = new System.Drawing.Size(104, 30);
             this.cmdcalcul.TabIndex = 7;
@@ -155,7 +158,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(87, 399);
+            this.label3.Location = new System.Drawing.Point(53, 399);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 20);
             this.label3.TabIndex = 11;
@@ -163,11 +166,24 @@
             this.label3.Visible = false;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(239, 399);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(24, 20);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "...";
+            this.label4.Visible = false;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(397, 428);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Annuelbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
@@ -202,6 +218,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
