@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C42E31D-50CA-4861-9B1D-DDC52081B069}</ProjectGuid>
+    <ProjectGuid>{9B64B557-4FD4-4396-98F7-D4F5E126B803}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exo_2_Deductions</RootNamespace>
-    <AssemblyName>Exo 2 Deductions</AssemblyName>
+    <RootNamespace>Exercice_Bonjour</RootNamespace>
+    <AssemblyName>Exercice Bonjour</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

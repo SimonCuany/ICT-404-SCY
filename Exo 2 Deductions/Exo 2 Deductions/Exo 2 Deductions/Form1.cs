@@ -33,7 +33,12 @@ namespace Exo_2_Deductions
           float brut;
           float famillial;
           float resultat;
-           
+            float jeunes;
+
+           if (Jeunebox.Checked == true )
+            {
+                resultat = resultat - jeunes; 
+            }
     
           if (Annuelbox.Text == "")
           {
@@ -46,6 +51,8 @@ namespace Exo_2_Deductions
                 MessageBox.Show("Veuillez entrez quelque chose dans la case Coefficient famillal ", "Erreur");
                 return;
           }
+            jeunes = float.Parse(Lbljeune.Text);
+
             brut = float.Parse(Annuelbox.Text);
             label3.Visible = true;
             famillial = float.Parse(Coefficientbox.Text);
@@ -53,6 +60,7 @@ namespace Exo_2_Deductions
             resultat = brut / famillial;
             label4.Text = resultat.ToString ();
             label4.Visible = true;
+
 
         }
 

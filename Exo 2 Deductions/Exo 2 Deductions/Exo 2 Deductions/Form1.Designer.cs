@@ -36,9 +36,9 @@
             this.Annuelbox = new System.Windows.Forms.TextBox();
             this.Coefficientbox = new System.Windows.Forms.TextBox();
             this.cmdcalcul = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Lbljeune = new System.Windows.Forms.TextBox();
+            this.lblfidelité = new System.Windows.Forms.TextBox();
+            this.lbltransport = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -126,33 +126,33 @@
             this.cmdcalcul.UseVisualStyleBackColor = true;
             this.cmdcalcul.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // Lbljeune
             // 
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox1.Location = new System.Drawing.Point(314, 215);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(47, 20);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.Text = "900";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Lbljeune.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Lbljeune.Location = new System.Drawing.Point(314, 215);
+            this.Lbljeune.Name = "Lbljeune";
+            this.Lbljeune.Size = new System.Drawing.Size(47, 20);
+            this.Lbljeune.TabIndex = 8;
+            this.Lbljeune.Text = "900";
+            this.Lbljeune.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // lblfidelité
             // 
-            this.textBox2.Location = new System.Drawing.Point(314, 271);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(47, 20);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.Text = "0";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.lblfidelité.Location = new System.Drawing.Point(314, 271);
+            this.lblfidelité.Name = "lblfidelité";
+            this.lblfidelité.Size = new System.Drawing.Size(47, 20);
+            this.lblfidelité.TabIndex = 9;
+            this.lblfidelité.Text = "0";
+            this.lblfidelité.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox3
+            // lbltransport
             // 
-            this.textBox3.Location = new System.Drawing.Point(314, 243);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(47, 20);
-            this.textBox3.TabIndex = 10;
-            this.textBox3.Text = "650";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.lbltransport.Location = new System.Drawing.Point(314, 243);
+            this.lbltransport.Name = "lbltransport";
+            this.lbltransport.Size = new System.Drawing.Size(47, 20);
+            this.lbltransport.TabIndex = 10;
+            this.lbltransport.Text = "650";
+            this.lbltransport.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -186,9 +186,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.Annuelbox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbltransport);
+            this.Controls.Add(this.lblfidelité);
+            this.Controls.Add(this.Lbljeune);
             this.Controls.Add(this.cmdcalcul);
             this.Controls.Add(this.Coefficientbox);
             this.Controls.Add(this.label2);
@@ -214,9 +214,9 @@
         private System.Windows.Forms.TextBox Annuelbox;
         private System.Windows.Forms.TextBox Coefficientbox;
         private System.Windows.Forms.Button cmdcalcul;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Lbljeune;
+        private System.Windows.Forms.TextBox lblfidelité;
+        private System.Windows.Forms.TextBox lbltransport;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
     }
