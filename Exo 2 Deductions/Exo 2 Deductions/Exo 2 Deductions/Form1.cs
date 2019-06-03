@@ -35,10 +35,7 @@ namespace Exo_2_Deductions
           float resultat;
             float jeunes;
 
-           if (Jeunebox.Checked == true )
-            {
-                resultat = resultat - jeunes; 
-            }
+           
     
           if (Annuelbox.Text == "")
           {
@@ -61,6 +58,10 @@ namespace Exo_2_Deductions
             label4.Text = resultat.ToString ();
             label4.Visible = true;
 
+            if (Jeunebox.Checked == true)
+            {
+                resultat = resultat.ToString() - jeunes;
+            }
 
         }
 
