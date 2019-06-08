@@ -1,5 +1,5 @@
 ﻿//Project : Déduction fiscal
-//AuthBor  : Simon Cuany
+//Author  : Simon Cuany
 //Date    : 13.05.2019
 //Title   : Exo 2 Deductions
 

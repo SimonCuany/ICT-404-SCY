@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Title   : Exo 3 Rouge et Bleu
+//Project : Exercice 3
+//Author  : Simon Cuany
+//Date    : 03.06.2019
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{6B67AB61-BF3F-49A9-A805-DC20513F2CF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo 4 Commande de pizza", "Exo 4 Commande de pizza\Exo 4 Commande de pizza.csproj", "{271A63B2-EB67-464F-BEBC-4C9CE0F623EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B67AB61-BF3F-49A9-A805-DC20513F2CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B67AB61-BF3F-49A9-A805-DC20513F2CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B67AB61-BF3F-49A9-A805-DC20513F2CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B67AB61-BF3F-49A9-A805-DC20513F2CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271A63B2-EB67-464F-BEBC-4C9CE0F623EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271A63B2-EB67-464F-BEBC-4C9CE0F623EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271A63B2-EB67-464F-BEBC-4C9CE0F623EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271A63B2-EB67-464F-BEBC-4C9CE0F623EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A6588EAF-F1DA-47E4-B487-1BDD9778FEFA}
+		SolutionGuid = {63A84E7A-2AB0-4720-B5FE-5CE56C4E7EF1}
 	EndGlobalSection
 EndGlobal
