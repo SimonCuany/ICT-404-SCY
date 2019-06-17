@@ -28,65 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.Xfine = new System.Windows.Forms.RadioButton();
+            this.Fine = new System.Windows.Forms.RadioButton();
+            this.Normale = new System.Windows.Forms.RadioButton();
+            this.Epaisse = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.Anchois = new System.Windows.Forms.CheckBox();
+            this.Câpres = new System.Windows.Forms.CheckBox();
+            this.Jambons = new System.Windows.Forms.CheckBox();
+            this.Crevettes = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.Commande = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // Xfine
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(40, 64);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(69, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Extra-fine";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Xfine.AutoSize = true;
+            this.Xfine.Location = new System.Drawing.Point(40, 64);
+            this.Xfine.Name = "Xfine";
+            this.Xfine.Size = new System.Drawing.Size(69, 17);
+            this.Xfine.TabIndex = 0;
+            this.Xfine.Text = "Extra-fine";
+            this.Xfine.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Fine
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(40, 87);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(45, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Fine";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Fine.AutoSize = true;
+            this.Fine.Location = new System.Drawing.Point(40, 87);
+            this.Fine.Name = "Fine";
+            this.Fine.Size = new System.Drawing.Size(45, 17);
+            this.Fine.TabIndex = 1;
+            this.Fine.Text = "Fine";
+            this.Fine.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // Normale
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(40, 110);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(64, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Normale";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.Normale.AutoSize = true;
+            this.Normale.Location = new System.Drawing.Point(40, 110);
+            this.Normale.Name = "Normale";
+            this.Normale.Size = new System.Drawing.Size(64, 17);
+            this.Normale.TabIndex = 2;
+            this.Normale.Text = "Normale";
+            this.Normale.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // Epaisse
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(40, 133);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(62, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Epaisse";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.Epaisse.AutoSize = true;
+            this.Epaisse.Location = new System.Drawing.Point(40, 133);
+            this.Epaisse.Name = "Epaisse";
+            this.Epaisse.Size = new System.Drawing.Size(62, 17);
+            this.Epaisse.TabIndex = 3;
+            this.Epaisse.Text = "Epaisse";
+            this.Epaisse.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -107,45 +103,45 @@
             this.label1.Text = "Table";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // checkBox1
+            // Anchois
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(211, 64);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(64, 17);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Anchois";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Anchois.AutoSize = true;
+            this.Anchois.Location = new System.Drawing.Point(211, 64);
+            this.Anchois.Name = "Anchois";
+            this.Anchois.Size = new System.Drawing.Size(64, 17);
+            this.Anchois.TabIndex = 6;
+            this.Anchois.Text = "Anchois";
+            this.Anchois.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // Câpres
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(211, 87);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(59, 17);
-            this.checkBox2.TabIndex = 7;
-            this.checkBox2.Text = "Câpres";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.Câpres.AutoSize = true;
+            this.Câpres.Location = new System.Drawing.Point(211, 87);
+            this.Câpres.Name = "Câpres";
+            this.Câpres.Size = new System.Drawing.Size(59, 17);
+            this.Câpres.TabIndex = 7;
+            this.Câpres.Text = "Câpres";
+            this.Câpres.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // Jambons
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(211, 110);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(63, 17);
-            this.checkBox3.TabIndex = 8;
-            this.checkBox3.Text = "Jambon";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.Jambons.AutoSize = true;
+            this.Jambons.Location = new System.Drawing.Point(211, 110);
+            this.Jambons.Name = "Jambons";
+            this.Jambons.Size = new System.Drawing.Size(63, 17);
+            this.Jambons.TabIndex = 8;
+            this.Jambons.Text = "Jambon";
+            this.Jambons.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // Crevettes
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(211, 133);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(71, 17);
-            this.checkBox4.TabIndex = 9;
-            this.checkBox4.Text = "Crevettes";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.Crevettes.AutoSize = true;
+            this.Crevettes.Location = new System.Drawing.Point(211, 133);
+            this.Crevettes.Name = "Crevettes";
+            this.Crevettes.Size = new System.Drawing.Size(71, 17);
+            this.Crevettes.TabIndex = 9;
+            this.Crevettes.Text = "Crevettes";
+            this.Crevettes.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -160,10 +156,11 @@
             // Commande
             // 
             this.Commande.BackColor = System.Drawing.Color.Yellow;
-            this.Commande.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Commande.Location = new System.Drawing.Point(40, 246);
+            this.Commande.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Commande.Location = new System.Drawing.Point(40, 270);
+            this.Commande.Multiline = true;
             this.Commande.Name = "Commande";
-            this.Commande.Size = new System.Drawing.Size(299, 53);
+            this.Commande.Size = new System.Drawing.Size(299, 55);
             this.Commande.TabIndex = 11;
             this.Commande.TextChanged += new System.EventHandler(this.Commande_TextChanged);
             // 
@@ -195,16 +192,16 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Commande);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.Crevettes);
+            this.Controls.Add(this.Jambons);
+            this.Controls.Add(this.Câpres);
+            this.Controls.Add(this.Anchois);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.Epaisse);
+            this.Controls.Add(this.Normale);
+            this.Controls.Add(this.Fine);
+            this.Controls.Add(this.Xfine);
             this.Name = "Form1";
             this.Text = "Pizza";
             this.ResumeLayout(false);
@@ -214,16 +211,16 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton Xfine;
+        private System.Windows.Forms.RadioButton Fine;
+        private System.Windows.Forms.RadioButton Normale;
+        private System.Windows.Forms.RadioButton Epaisse;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox Anchois;
+        private System.Windows.Forms.CheckBox Câpres;
+        private System.Windows.Forms.CheckBox Jambons;
+        private System.Windows.Forms.CheckBox Crevettes;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox Commande;
         private System.Windows.Forms.Label label2;
